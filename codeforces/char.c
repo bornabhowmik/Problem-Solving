@@ -1,7 +1,18 @@
 #include<stdio.h>
 int main()
 {
-    int X;
-    scanf("%d",&X);
-    
+    char a;
+    scanf("%c",&a);
+    if(a>='a' && a<='z')
+    {
+        int ans=a-32;
+        printf("%c",ans);
+    }
+    else
+    {
+        int ans=a+32;
+        printf("%c",ans);
+    }
+
+    return 0;
 }
