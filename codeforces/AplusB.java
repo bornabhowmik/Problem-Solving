@@ -8,6 +8,7 @@ public class AplusB {
 
         for(int i=0; i<t; i++){
             String stringLine=sc.nextLine();
+        
             int result= Character.getNumericValue(stringLine.charAt(0)) + Character.getNumericValue(stringLine.charAt(2));
 
             System.out.println(result);
