@@ -2,6 +2,7 @@
 using namespace std;
 
 int main() {
+    
     int x,y;
     cin>>x>>y;
 	
@@ -10,5 +11,6 @@ int main() {
     }else{
         printf("NO");
     }
+
 	return 0;
 }
