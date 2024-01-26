@@ -1,11 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std;
+
 int main(){
+
     int A, B;
     cin>>A>>B;
 
-    int SOMA= A + B;
+    int sum= A + B;
 
-    cout<<"SOMA = "<< A << endl;
-    
+    cout<<"SOMA = "<< sum << endl;
+
+    return 0;
 }
