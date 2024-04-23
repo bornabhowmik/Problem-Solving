@@ -11,11 +11,9 @@ int main(){
         int A, B;
         cin>>A>>B;
 
-        if(A<B){
-            cout<<"B"<<endl;
-        }else{
-            cout<<"A"<<endl;
-        }
+        if(A<B) cout<<"B"<<endl;
+        else cout<<"A"<<endl;
+
     }
 
     return 0;
