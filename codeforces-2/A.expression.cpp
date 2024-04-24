@@ -10,6 +10,6 @@ int main(){
     cin>>i;
 
     if(a+b*c || a*(b+c) || a*b*c || (a+b)*c){
-        cout<<i<<endl;
+        cout << i <<endl;
     }
 }
