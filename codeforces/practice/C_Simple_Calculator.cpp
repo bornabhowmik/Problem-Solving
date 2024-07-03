@@ -1,16 +1,14 @@
 #include<bits/stdc++.h>
 using namespace std;
 
-int main()
+int main() 
 {
-    int x, y;
-    cin>>x>>y;
+    long long x, y;
+    cin >> x >> y;
 
-    int sum = x + y;
-    int mul = x * y;
-    int sub = x - y;
-
-    cout<<%d + %d = <<sum;
-
+    cout << x << " + " << y << " = " << x+y << endl;
+    cout << x << " * " << y << " = " << x*y << endl;
+    cout << x << " - " << y << " = " << x-y << endl;
+    
     return 0;
 }
